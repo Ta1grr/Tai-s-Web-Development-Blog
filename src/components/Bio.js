@@ -28,10 +28,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Alabama building useful things.
+              Written by <strong>{author}</strong> who lives in Alabama and going through Lambda School to become a Web Developer.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                You should follow him on Twitter (But really, you shouldn't)
               </a>
             </p>
           </div>
