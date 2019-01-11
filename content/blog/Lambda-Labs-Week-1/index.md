@@ -5,7 +5,6 @@ date: '2019-01-11T10:32:03.284Z'
 
 ##Part 1 - Individual Accomplishments this Week
 
-####[No Whiteboard for this week blog (it was optional)](#)
 
 ####[Team's github contribution graph](https://github.com/Lambda-School-Labs/dont-send-that-email/graphs/contributors)
 
@@ -27,7 +26,7 @@ The tools I've used so far is ReactJS, NodeJS and Express. I'm hoping to impleme
 
 _Accomplishment?_
 
-My accomplishment for this week is driving the first day of TDD,choosing the technology(with inputs from other teammates), and getting fred to said more than 1 word.
+My accomplishment for this week is driving the first day of the Technical Design Document (TDD),choosing the technology(with inputs from other teammates), and getting fred to said more than 1 word.
 
 ###Tasks Pulled
 
@@ -66,11 +65,11 @@ He first explain the backend workflow and then helped me understand how OAuth do
 
 We were able to write the proper callback to check if the user logging in exist in the database, if they do exist then they can proceed to the application or else redirect them to the sign-up page.
 
-**The code Jared and I written together to add new emailaddress column in the database.**
+**The code Jared and I wrote together to add new emailaddress column in the database.**
 
 ![Migration codes](./Migration_codes.png)
 
-**The code Jared and I written together to add/check users in the database.**
+**The code Jared and I wrote together to add/check users in the database.**
 
 ![Adding users to database](./Adding_user_to_database.png)
 
