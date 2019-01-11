@@ -6,7 +6,8 @@ date: '2019-01-11T10:32:03.284Z'
 ##Part 1 - Individual Accomplishments this Week
 
 
-####[Team's github contribution graph](https://github.com/Lambda-School-Labs/dont-send-that-email/graphs/contributors)
+####Team's github contribution graph
+![Team Github Contribution](./Team_github_contribution.png)
 
 ####[My Github](https://github.com/Ta1grr)
 
