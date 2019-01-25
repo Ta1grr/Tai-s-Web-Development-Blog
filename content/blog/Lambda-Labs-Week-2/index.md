@@ -8,7 +8,7 @@ date: '2019-01-18T10:32:03.284Z'
 ####Team's github contribution graph
 ![Team Github Contribution](./group-contribute.png)
 
-####[White Board Interview Practice (week 2)](#)
+####[White Board Interview Practice (week 2)](https://youtu.be/KjjIowizVMg)
 
 ####[My Github](https://github.com/Ta1grr)
 
@@ -28,7 +28,7 @@ Since most of us aren't design-esque developers, I took the initiative to find a
 
 _Accomplishment?_
 
-Getting our application coming together within 2 weeks has been fulfilling experience. Getting our landing page to look really good has been my accomplishment for this week, Josh's UI/UX lecture really set a good point on needing a landing paget that'll draw in customers and set a solid first impression. Pair programming with great and talented team members really solidify our group and allow us to communicate more freely than before.
+Getting our application coming together within 2 weeks has been fulfilling experience. Getting our landing page to look really good has been my accomplishment for this week, Josh's UI/UX lecture really set a good point on needing a landing page that'll draw in customers and set a solid first impression. Pair programming with great and talented team members really solidify our group and allow us to communicate more freely than before.
 
 ###Tasks Pulled
 
@@ -49,6 +49,11 @@ _Finishing up Stripe on frontend to communicate with backend._
 _Converted the HTML Landing Page to ReactJS_
 
 [Github](https://github.com/Lambda-School-Labs/dont-send-that-email/pull/54) / [Trello](https://trello.com/c/byDDmoEz/62-converting-landing-page-to-reactjs-component)
+
+**Ticket 4** :
+_Hopefully font and navbar transition will work properly in netlify_
+
+[Github](https://github.com/Lambda-School-Labs/dont-send-that-email/pull/57) / [Trello](#)
 
 ####Back End
 **Ticket 1** :

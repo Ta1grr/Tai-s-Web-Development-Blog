@@ -6,7 +6,7 @@ date: '2019-01-25T10:32:03.284Z'
 ##Part 1 - Individual Accomplishments this Week
 
 ####Team's github contribution graph
-![Team Github Contribution](./group-contribute.png)
+![Team Github Contribution](./group-contribution-github.png)
 
 ####[White Board Interview Practice (week 3)](https://youtu.be/4GnB9bsl5bs)
 
@@ -16,19 +16,19 @@ date: '2019-01-25T10:32:03.284Z'
 
 _The work you contribute?_
 
-Mostly contributed pair programming early in the week due to moving. I helped Chad implement Watson API into the backend, Also paired program with Richard implementing Stripe API to the backend and frontend. Designed the Landing Page with everyone's opinion on color scheme, styles, etc.
+This week main focus was about responsiveness and feature functionality, I mainly invest my time in for the responsiveness and design of our application. For the backend, I moved the Watson API endpoint into the routers folder and for the frontend I added in countless improvements such as implementing fontawesome to reactjs, redesign billing component, help our new member get up to speed and understand our design flow/decisions.
 
 _Challenges you've faced?_
 
-Mostly was trying to get a communication going on who's doing what this week. We might need to create cards first in trello board next week to dictate what is needed to be done. Also trying to meet the pull request requirement and contribute to the group while moving. It was definitely a challenging week.
+The three day weekend was a bonus but also a curse, it definitely increase stress to ensure we accomplish our MVP (Minimum Viable Product) for this week. We had to make sure all the features and responsiveness met Lambda's standards and ensure that we covered all over user functionality as well that was not covered in the wired frame.
 
 _Tools you've used?_
 
-Since most of us aren't design-esque developers, I took the initiative to find a good template to overall set the application style tone. Mostly using Bootstrap to get the styling done without spending too much time, Watson API documentation is amazing, so it wasn't that difficult setting it up. Lastly the Stripe API is intimidating, it can cover almost everything you want, subscriptions, creating customer information, handling charges, etc. It's pretty amazing if fully utilized in any applications.
+The group as a whole decide to convert the entire project to Reactstrap and just let our CSS library (Paper Kit 2 from Tim Creative) override the bootstrap CSS. Joshua was impressed by the design and commented that they probably should incorporate some form of design library as a mandatory thing for future lab students.
 
 _Accomplishment?_
 
-Getting our application coming together within 2 weeks has been fulfilling experience. Getting our landing page to look really good has been my accomplishment for this week, Josh's UI/UX lecture really set a good point on needing a landing paget that'll draw in customers and set a solid first impression. Pair programming with great and talented team members really solidify our group and allow us to communicate more freely than before.
+Meeting this week MVP was an accomplishment itself, especially when we had to add in features to meet the wire frame standards. Also getting our newest member comfortable in our group and up to speed is another accomplishment as well. Overall, I'm feeling good about our product and how well we colloborate together to complete this week objective.
 
 ###Tasks Pulled
 
@@ -40,15 +40,15 @@ _Redesign billing component_
 
 [Github](https://github.com/Lambda-School-Labs/dont-send-that-email/pull/69) / [Trello](https://trello.com/c/sZuBwLgU/63-responsive-billing-component-mobile)
 
-<!-- **Ticket 2** :
-_Finishing up Stripe on frontend to communicate with backend._
+**Ticket 2** :
+_Add font awesome to package.json so it'll display in netlify_
 
-[Github](https://github.com/Lambda-School-Labs/dont-send-that-email/pull/45) / [Trello](https://trello.com/c/FvF0bzBC/55-stripe-front-and-backend-for-dste)
+[Github](https://github.com/Lambda-School-Labs/dont-send-that-email/pull/96) / [Trello](https://trello.com/c/Ft3vwi4y/103-add-fontawesome-to-dependency-and-convert-i-tags-to-fontawesome-components)
 
 **Ticket 3** :
-_Converted the HTML Landing Page to ReactJS_
+_Fixing Fontawesome_
 
-[Github](https://github.com/Lambda-School-Labs/dont-send-that-email/pull/54) / [Trello](https://trello.com/c/byDDmoEz/62-converting-landing-page-to-reactjs-component) -->
+[Github](https://github.com/Lambda-School-Labs/dont-send-that-email/pull/101) / [Trello](https://trello.com/c/WbCbYtv3/95-fixing-font-awesome)
 
 ####Back End
 **Ticket 1** :
@@ -59,42 +59,42 @@ _Moved watson endpoint to routers folder_
 ###Detailed Analysis
 
 _Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots._
-####Converting the HTML landing page into ReactJS component.
+####Adding Fontawesome.
 
-It was intimidating at first, but with a few google-fu, adding in the bootstrap requirements (jquery, bootstrap.css, paper-kit.css, etc.) was a breeze. I did learn that it is bad practice due to Render Blocking CSS, in which next week I'll refactor the code base for performance improvement.
+One thing I've learn about Fontawesome, it is waaay easier to do it on HTML/CSS static webpages because you can just copy and paste the code you need to implement the icon. 
 
-I did have to go through and convert all the html "class" to "className" and add a forward slash to the img tags so JSX will accept it.
+Implementing it with Reactjs, you need to import the correct library to use the icon you want, so if you want a Facebook icon, you have to call in the "Brands" library and if you want an igloo then you'll need the "Solid" library. Also depending on which library you're trying to implement will determine the style of syntax you can call it into your component. 
 
-Overall, I still need to add in a way for google fonts to ReactJS, ensure the styling from paper-kit css persist with rest of the components, and performance speed up to par.
+My recommendation is to read the documentation from its github pages as it will give you more details than fontawesome help section and save you a huge headache.
 
-**Landing Page on Netlify.**
+**FontAwesome Icons on the LandingPage Navbar**
 
-![Landing Page](./netlify-landing-page.png)
+![Landing Page Navbar Icons](./landing-page-icon.png)
 
-**The code Jared and I wrote together to add/check users in the database.**
+**FontAwesome component being implemented.**
 
-![Index html CDN](./indexhtml-cdn.png)
+![Landingpage Icon Syntax](./landingpage-icon-syntax.png)
 
-**Object return after signing up or logging in(if they exist in the database)**
+**Importing FontAwesome Library inside of App.js**
 
-![Landing Page Component](./landing-page-component.png)
+![Importing to app](./importing-to-app.png)
 
 ##Part 2 - Milestone Reflections
 
-_As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to integrate several servers, pages, APIs, and services into one project. Describe how your pieces of the project interfaced with and integrated with your teammates._
+_Reflect on your experiences working with a team to convert a disparate set of components into a single, cohesive, and complete product._
 
-_Reflecting on your experiences working with a team_
+It was interesting to watch how each of us tackle individual components and how it comes together as one whole application. Communication played a huge part, I held an initial meeting early in the week to get a clear understanding amongst all of us on what needs to be done and create a goal to achieve it. 
 
-I definitely need to improve working with my teammates, deciding our essential objective goal for this week and delegating work between members. I feel it's essential to communicate and decide as a whole on several deciding factors like backend flow/logic, the style theme of our project, which aspect of the API we're implementing.
+At first, it was hard to find a task to complete, but once we start working it became clear that we had a lot of things left to be completed. I'm glad we got an extra member in our group to fill in the roll for backend since Chad was sick majority of last week and had to do something else half of this week. 
 
-_Integrating several servers, pages, APIs, and services into one project?_
+Will is a great addition to our team and a great person to brainstorm initial logic/would-be cases.
 
-Watson API was lessing intimidating to implement once we got a good idea how we decide to meet this week objective. We just want it to return a proper response so we can add it into our frontend to show we got the API working. Auth0 was fully implemented since last week all thanks to Jared effort. And lastly Stripe API was fun to work with especially from the backend and frontend, we used stripe-react-checkout for our frontend because it had the stripe style and modal which will compliment the application overall. The backend was interesting because we had to use cors dynamically and set a Whitelist to allow certain incoming URL.
+_Describe the challenges you faced and the steps you took to overcome them._
 
-_Describe how your pieces of the project interfaced with and integrated with your teammates?_
+Most of the challenge we faced was in the Create Email component because it held the heart of our application. To analyze and provide the user useful feedback of their text/email/documents, we needed to ensure the Watson API response work properly via providing color scheme to corresponding emotions or percentage to ensure valuable feedback. 
 
-The Stripe API was paired program with Richard so it was straight forward on connecting the frontend with the backend.
+We were able to overcome several issues such as the "score" Watson provide after analyzing, it only return an emotion that score higher than 0.5 out of a 1. So the emotion can range between 0-1 within the thousandth but we needed to convert the score into a percentage value out of a hundred. 
 
-The same goes for Watson API, we could test the endpoint with Postman and not worried about the Cors restriction.
+Luckily Chad was able to solve that issue and got us going in the right direction.
 
-[Team Journal link for this week](https://learn.lambdaschool.com/labs/sprint/recumtvkqrfgmx228)
+[Team Journal link for this week](https://learn.lambdaschool.com/labs/sprint/rec33mgvnhczfvywa)
