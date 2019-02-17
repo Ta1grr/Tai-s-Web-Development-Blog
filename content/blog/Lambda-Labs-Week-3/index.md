@@ -1,5 +1,5 @@
 ---
-title: Week 3 impressions
+title: Lambda Labs Week 3
 date: '2019-01-25T10:32:03.284Z'
 ---
 

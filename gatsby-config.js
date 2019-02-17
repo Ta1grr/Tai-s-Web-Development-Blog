@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tai's journey through Lambda Labs.`,
+    title: `Tai's journey through Lambda.`,
     author: `Tai Le`,
     description: `A blog recording a weekly basis accomplishment and journey.`,
     siteUrl: `https://elated-cray-ecebf7.netlify.com/`,
